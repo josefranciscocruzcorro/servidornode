@@ -1,0 +1,27 @@
+{
+  "name": "inti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node app.js --exec",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose Cruz",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "connect-history-api-fallback": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "helmet": "^3.21.2",
+    "md5": "^2.2.1",
+    "mongoose": "^5.7.13",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2"
+  }
+}
